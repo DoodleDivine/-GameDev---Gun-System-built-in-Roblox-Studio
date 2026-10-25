@@ -7,13 +7,20 @@
 ## **WeaponClient** [Kept in StarterPack folder]
 
 - Client script that includes logic such as **shoot, ammo and reload states**, **viewmodel Implementation**, **UI application**
-and **sound**
+and **sound**.
 
-- It as well includes data that will be sent to the server script for validation and back to the player to prevent any technical
-errors during gameplay.
+- It as well includes data that will be sent to the server script via remote events for validation and back to the player
+to prevent any technical errors during gameplay.
 
 ## **WeaponConfig** [Kept in StarterPack folder]
 
 - Module script that contains configuration data such as **weapon data**, **animation data**, **sound data** and others.
 
 - Used in **WeaponClient** to set up client and server communication to maintain a single source of truth throughout the system.
+
+## **WeaponServer** [Kept in ServerScriptService folder]
+
+- Server script that includes validation logic from the **WeaponClient** script. It as well helps maintain accuracy of the experience
+by preventing latency when it comes to verifying shoot logic.
+
+- Contains **damage** and **VFX** logic that will be sent to the client to help visualize response to the players` screen.
