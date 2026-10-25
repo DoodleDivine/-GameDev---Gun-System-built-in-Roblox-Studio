@@ -28,7 +28,7 @@ players` screen.
 
 - Handles character model synchronization to display the active weapon in the 3D world from the other players` perspective.
 
-<img width="400" height="265" alt="For GitHub2" src="https://github.com/user-attachments/assets/eda19901-1eff-4ede-9a6c-6437a7a97cab" />
+- <img width="400" height="265" alt="For GitHub2" src="https://github.com/user-attachments/assets/eda19901-1eff-4ede-9a6c-6437a7a97cab" />
 
 ## **ClientReplicator** 💻 [Kept in StarterPlayer - StarterPlayerScripts folder]
 
@@ -57,8 +57,8 @@ of the ray cast and triggered VFX replication to follow that position.
 equipped on the head but it's also related to ray cast and the quick fix was ignoring accessories
 when the ray cast was running.
 
-<img width="400" height="207" alt="For Github3" src="https://github.com/user-attachments/assets/dfcf2e81-2389-48a1-bc38-c23038c7671c" />
+- <img width="400" height="207" alt="For Github3" src="https://github.com/user-attachments/assets/dfcf2e81-2389-48a1-bc38-c23038c7671c" />
 
 # **Small showcase of the system**
 
-<img width="400" height="207" alt="For GitHub" src="https://github.com/user-attachments/assets/909b3726-fceb-461e-800a-eef65be80d66" />
+- <img width="400" height="207" alt="For GitHub" src="https://github.com/user-attachments/assets/909b3726-fceb-461e-800a-eef65be80d66" />
