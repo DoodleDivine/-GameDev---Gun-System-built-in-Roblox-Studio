@@ -1,10 +1,10 @@
-# **Gun System** 🔫
+<img width="341" height="200" alt="image" src="https://github.com/user-attachments/assets/ac9f51ac-65ae-4980-9473-e74e9958efaf" /># **Gun System** 🔫
 
 - This system features client and server sided logic containing modules, models and UI made to feel more accurate of that to an actual gun-game.
 
 - Explanations of the files in the repository below 👇:
 
-## **WeaponClient** 💻 [Kept in StarterPack folder]
+## **WeaponClient** 💻 [Kept in StarterPack - Tool folder]
 
 - Client script that includes logic such as **shoot, ammo and reload states**, **viewmodel Implementation**, **UI application**
 and **sound**.
@@ -12,7 +12,7 @@ and **sound**.
 - It as well includes data that is sent to the server script via remote events for validation and back to the player
 to prevent any technical errors during gameplay.
 
-## **WeaponConfig** ⚙️ [Kept in StarterPack folder]
+## **WeaponConfig** ⚙️ [Kept in StarterPack - Tool folder]
 
 - Module script that contains configuration data such as **weapon data**, **animation data**, **sound data** and others.
 
@@ -58,7 +58,18 @@ equipped on the head but it's also related to ray cast and the quick fix was ign
 when the ray cast was running.
 
   <img width="650" height="400" alt="For Github3" src="https://github.com/user-attachments/assets/dfcf2e81-2389-48a1-bc38-c23038c7671c" />
-
-# **Small showcase of the system**
+  
+- Small showcase of the system:
 
   <img width="650" height="400" alt="For GitHub" src="https://github.com/user-attachments/assets/909b3726-fceb-461e-800a-eef65be80d66" />
+
+# **Others**
+
+- If you are curious on how I structured the **models**, **UI** and **sound** files here you go:
+
+  <img width="365" height="250" alt="image" src="https://github.com/user-attachments/assets/bc50fc5d-f87d-4a58-bb40-a0e2173186ab" />
+
+  <img width="305" height="176" alt="image" src="https://github.com/user-attachments/assets/f5b77ea0-ab3d-4038-b94c-9d0753734f46" />
+
+  <img width="277" height="130" alt="image" src="https://github.com/user-attachments/assets/7061cdfa-6af8-4e8b-9bbb-d3c3d6e8c1a6" />
+
