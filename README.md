@@ -1,4 +1,4 @@
-**Gun System** 🔫
+# **Gun System** 🔫
 
 - This system features client and server sided logic containing modules, models and UI made to feel more accurate of that to an actual gun-game.
 
@@ -73,3 +73,4 @@ when the ray cast was running.
 
   <img width="277" height="130" alt="image" src="https://github.com/user-attachments/assets/7061cdfa-6af8-4e8b-9bbb-d3c3d6e8c1a6" />
 
+  <img width="275" height="125" alt="image" src="https://github.com/user-attachments/assets/59a9573a-af05-4b2b-8833-0b2b0380b7ca" />
