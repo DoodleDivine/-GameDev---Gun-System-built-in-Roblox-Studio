@@ -27,3 +27,24 @@ by handling lag compensation and preventing potential exploitation when it comes
 players` screen.
 
 - Handles character model synchronization to display the active weapon in the 3D world from the other players` perspective.
+
+## **ClientReplicator** 💻 [Kept in StarterPlayer - StarterPlayerScripts folder]
+
+- Simple Client script that handles **VFX replication** with data that has been collected via remote events.
+
+- Makes use of weapon model's muzzle to replicate the bullet trail to the hit target.
+
+# **Evaluation** 🤔
+
+- Throughout developing this system, my main issue was handling the ray cast logic.
+
+- Complications ocurred such as delayed output when input was clearly well placed,
+and the direction of the bullet trail VFX not actually hitting the position of where
+the player's body was aiming at.
+
+- However, I did find the problem, and it was where I was defining the origin positions.
+I defined them in the server's model instead of the client first, resulting in information
+being sent from client to server, then getting the server data and applying the ray cast.
+
+- I fixed this by **defining and creating the ray cast on the client**, then fetched the position
+of the ray cast and triggered VFX replication to follow that position.
