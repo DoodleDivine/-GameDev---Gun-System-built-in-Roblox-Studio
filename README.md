@@ -28,6 +28,8 @@ players` screen.
 
 - Handles character model synchronization to display the active weapon in the 3D world from the other players` perspective.
 
+- <img width="400" height="265" alt="For GitHub2" src="https://github.com/user-attachments/assets/eda19901-1eff-4ede-9a6c-6437a7a97cab" />
+
 ## **ClientReplicator** 💻 [Kept in StarterPlayer - StarterPlayerScripts folder]
 
 - Simple Client script that handles **VFX replication** with data that has been collected via remote events.
