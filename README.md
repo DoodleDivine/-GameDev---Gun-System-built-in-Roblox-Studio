@@ -1,4 +1,4 @@
-<img width="341" height="200" alt="image" src="https://github.com/user-attachments/assets/ac9f51ac-65ae-4980-9473-e74e9958efaf" /># **Gun System** 🔫
+**Gun System** 🔫
 
 - This system features client and server sided logic containing modules, models and UI made to feel more accurate of that to an actual gun-game.
 
