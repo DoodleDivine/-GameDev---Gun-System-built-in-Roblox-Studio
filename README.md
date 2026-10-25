@@ -48,3 +48,7 @@ being sent from client to server, then getting the server data and applying the 
 
 - I fixed this by **defining and creating the ray cast on the client**, then fetched the position
 of the ray cast and triggered VFX replication to follow that position.
+
+- There was also the issue with the **Headshot** logic, where it wouldn't work when accessories were
+equipped on the head but it's also related to ray cast and the quick fix was ignoring accessories
+when the ray cast was running.
