@@ -3,17 +3,17 @@ local Config = {
 	weaponModel = "PewPewModel",
 	
 	-- Server Anims
-	idleanimationID = "rbxassetid://87125531490984",
-	shootanimationIDServer = "rbxassetid://110117207824092",
-	reloadanimationIDServer = "rbxassetid://70375076238781",
+	idleanimationID = "rbxassetid://PlaceYourOwnId",
+	shootanimationIDServer = "rbxassetid://PlaceYourOwnId",
+	reloadanimationIDServer = "rbxassetid://PlaceYourOwnId",
 	
 	-- Client Anims
-	shootanimationIDClient = "rbxassetid://100535312807755",
-	reloadanimationIDClient = "rbxassetid://74901954684622",
+	shootanimationIDClient = "rbxassetid://PlaceYourOwnId",
+	reloadanimationIDClient = "rbxassetid://PlaceYourOwnId",
 	
 	-- Sounds
-	ShootSound = "rbxassetid://136658763437216",
-	ReloadSound = "rbxassetid://140545321475073",
+	ShootSound = "rbxassetid://PlaceYourOwnId",
+	ReloadSound = "rbxassetid://PlaceYourOwnId",
 	
 	-- Weapon Data
 	reloadTime = 0.5,
