@@ -9,7 +9,7 @@
 - Client script that includes logic such as **shoot, ammo and reload states**, **viewmodel Implementation**, **UI application**
 and **sound**.
 
-- It as well includes data that will be sent to the server script via remote events for validation and back to the player
+- It as well includes data that is sent to the server script via remote events for validation and back to the player
 to prevent any technical errors during gameplay.
 
 ## **WeaponConfig** [Kept in StarterPack folder]
@@ -21,6 +21,9 @@ to prevent any technical errors during gameplay.
 ## **WeaponServer** [Kept in ServerScriptService folder]
 
 - Server script that includes validation logic from the **WeaponClient** script. It as well helps maintain accuracy of the experience
-by preventing latency when it comes to verifying shoot logic.
+by handling lag compensation and preventing potential exploitation when it comes to verifying shoot logic.
 
-- Contains **damage** and **VFX** logic that will be sent to the client to help visualize response to the players` screen.
+- Contains **damage calculation** and triggers **VFX replication** logic that is sent to the client to help visualize response to the
+players` screen.
+
+- Handles character model synchronization to display the active weapon in the 3D world from the other players` perspective.
